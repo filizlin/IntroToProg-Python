@@ -95,3 +95,6 @@ while (True):
         else:
             continue
             # and Exit the program
+
+    else:
+        print("Invalid entry, please enter a number between 1-5.")

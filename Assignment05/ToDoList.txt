@@ -1,2 +1,2 @@
-Homework,High
-Lab,Medium
+Homework,Hight
+Lecture,Low
