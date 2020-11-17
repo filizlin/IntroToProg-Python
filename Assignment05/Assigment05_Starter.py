@@ -30,7 +30,7 @@ try:
         lstTable.append(dicRow)
 
 except:
-    print("")
+    print("There is no data in this file yet.  Please proceed with the menu to input data.")
 
 # -- Input/Output -- #
 # Step 2 - Display a menu of choices to the user
