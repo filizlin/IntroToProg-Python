@@ -24,9 +24,10 @@ strChoice = "" # A Capture the user option selection
 # in a text file called ToDoList.txt into a python list of dictionaries rows (like Lab 5-2)
 try:
     objFile=open("ToDoList.txt", "r")
+    objFile.read(lstTable)
     for row in lstTable:
         strData = row.split(",")
-        dicRow = {"Task":strData[0].strip,"Priority":strData[1].strip()}
+        dicRow = {"Task": strData[0].strip, "Priority": strData[1].strip()}
         lstTable.append(dicRow)
 
 except:
