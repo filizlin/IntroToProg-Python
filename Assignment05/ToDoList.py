@@ -68,7 +68,7 @@ while (True):
     elif (strChoice.strip() == '3'):
         strDelete = input("Which task would you like to delete from the To-Do list? ")
         for row in lstTable:
-            if  strDelete.strip().lower() in row["Task"].strip().lower():
+            if  strDelete.strip().lower() in row["Task"].strip().lower():  #try see if can do remove task and priority
                 strConfirmDelete = input("Are you sure you would like to delete the task " + strDelete + " from the file?  [Y/N] ")
                 if strConfirmDelete.lower() == 'y':
                     lstTable.remove(row)
